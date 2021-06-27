@@ -1,5 +1,5 @@
 # Cyanair Airline Booking System
- This is a project I created as per specifications in C&amp;G OOP module during the course of my FIT ICTAP Software Development apprenticeship.  
+ This is a project I created as per specifications in C&amp;G OOP module during the course of my FIT ICTAP Software Development apprenticeship.    
  ✦ Programming Language; C# (Help System using HTML, CSS + Bootstrap)  
  ✦ Framework; .NET Framework  
  ✦ Software Tools;  
