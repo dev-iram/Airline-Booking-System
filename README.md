@@ -3,10 +3,10 @@
  ✦ Programming Language; C# (Help System using HTML, CSS + Bootstrap)  
  ✦ Framework; .NET Framework  
  ✦ Software Tools;  
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp✧ Microsoft Visual Studio: Used for the creation of the Airline Booking System and the Graphical User Interface  
-    ✧ DB Browser: Used to populate and view database tables. Management of the database used in the system  
-    ✧ SQlite: Entry level free database   
-    ✧ Packages: NuGet SQLite Packages and Entity Framework installed on Visual Studio required to connect Database to the System  
+    &nbsp;&nbsp;&nbsp;&nbsp;✧ Microsoft Visual Studio: Used for the creation of the Airline Booking System and the Graphical User Interface  
+    &nbsp;&nbsp;&nbsp;&nbsp;✧ DB Browser: Used to populate and view database tables. Management of the database used in the system  
+    &nbsp;&nbsp;&nbsp;&nbsp;✧ SQlite: Entry level free database   
+    &nbsp;&nbsp;&nbsp;&nbsp;✧ Packages: NuGet SQLite Packages and Entity Framework installed on Visual Studio required to connect Database to the System  
    
  
 # 𝐀𝐬𝐬𝐢𝐠𝐧𝐦𝐞𝐧𝐭 𝐁𝐫𝐢𝐞𝐟  
