@@ -1,2 +1,12 @@
+-> Please create /data/Cyanair.db in Local Disk if it does not open the database
+
+
+-> Username credentials for testing; 
 username: testing
 password: password
+
+-> To test for flights;
+
+Dublin to Cork - 19/06/2020
+Cork to Dublin - 19/06/2020
+
