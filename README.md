@@ -20,9 +20,10 @@ The project requirements involve an Object-Oriented GUI program that is going to
 ✦ Type of Seats (Economy, Business, First)
 
 ### Functionality
-✦	The Cyanair Booking System will be protected via a Login (There will be 2 roles – Flight Representative and an Administrator)  
-✦	The system will allow the user to then choose between either the Booking System or the Maintenance Suite. The choice will only be available to the Administrator. The Flight Representative will only have the Booking System as an option.  
-✦		The Booking System will allow the Flight Representative to make bookings on behalf of passengers via the booking process.  
+✦ Cyanair Booking System will be protected via a Login (There will be 2 roles – Flight Representative and an Administrator)  
+✦	The system will allow the user to then choose between either the Booking System or the Maintenance Suite. The choice will only be available to the Administrator.
+  The Flight Representative will only have the Booking System as an option.  
+✦	The Booking System will allow the Flight Representative to make bookings on behalf of passengers via the booking process.  
 ✦	The system will allow for Departure and Destination flights to be selected, along with the date for the flight.  
 ✦	The system will allow One Way, Return, or Onward Leg flights  
 ✦	The system will proceed to gather the passenger details  
@@ -31,7 +32,6 @@ The project requirements involve an Object-Oriented GUI program that is going to
 ✦	The user will then have the option to create a new booking.  
 ✦	The Maintenance Suite will allow access to only the Administrator where they will be able to view/add/delete airports and to view bookings.  
 ✦ Help System available to help the user of the program (Integrated within the application)
-
 
 
 
