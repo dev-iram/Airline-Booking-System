@@ -1,16 +1,22 @@
 # Cyanair-Airline-Booking-System
  This is a project I created as per specifications in C&amp;G OOP module during the course of my FIT ICTAP Software Development apprenticeship.  
- -> Created in C#  
- -> Visual Studio  
+ ✦ Programming Language; C# (Help System using HTML, CSS + Bootstrap)
+ ✦ Framework; .NET Framework
+ ✦ Software Tools;
+   ✧ Microsoft Visual Studio: Used for the creation of the Airline Booking System and the Graphical User Interface
+   ✧ DB Browser: Used to populate and view database tables. Management of the database used in the system
+   ✧ SQlite: Entry level free database 
+   ✧ Packages: NuGet SQLite Packages and Entity Framework installed on Visual Studio required to connect Database to the System
+   
  
- 
- 
- Cyanair, an independent start-up Irish Airline, are currently unable to sell record their passenger data information and details sufficiently due to their current system which operates only paper-based transactions and records customer data through the use of spreadsheets. There is no system that allows flights to be booked electronically for the use of the Flight Representatives to record and retain information. 
+𝐀𝐬𝐬𝐢𝐠𝐧𝐦𝐞𝐧𝐭 𝐁𝐫𝐢𝐞𝐟
+𝘊𝘺𝘢𝘯𝘢𝘪𝘳, 𝘢𝘯 𝘪𝘯𝘥𝘦𝘱𝘦𝘯𝘥𝘦𝘯𝘵 𝘴𝘵𝘢𝘳𝘵-𝘶𝘱 𝘐𝘳𝘪𝘴𝘩 𝘈𝘪𝘳𝘭𝘪𝘯𝘦, 𝘢𝘳𝘦 𝘤𝘶𝘳𝘳𝘦𝘯𝘵𝘭𝘺 𝘶𝘯𝘢𝘣𝘭𝘦 𝘵𝘰 𝘴𝘦𝘭𝘭 𝘳𝘦𝘤𝘰𝘳𝘥 𝘵𝘩𝘦𝘪𝘳 𝘱𝘢𝘴𝘴𝘦𝘯𝘨𝘦𝘳 𝘥𝘢𝘵𝘢 𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘥𝘦𝘵𝘢𝘪𝘭𝘴 𝘴𝘶𝘧𝘧𝘪𝘤𝘪𝘦𝘯𝘵𝘭𝘺 𝘥𝘶𝘦 𝘵𝘰 𝘵𝘩𝘦𝘪𝘳 𝘤𝘶𝘳𝘳𝘦𝘯𝘵 𝘴𝘺𝘴𝘵𝘦𝘮 𝘸𝘩𝘪𝘤𝘩 𝘰𝘱𝘦𝘳𝘢𝘵𝘦𝘴 𝘰𝘯𝘭𝘺 𝘱𝘢𝘱𝘦𝘳-𝘣𝘢𝘴𝘦𝘥 𝘵𝘳𝘢𝘯𝘴𝘢𝘤𝘵𝘪𝘰𝘯𝘴 𝘢𝘯𝘥 𝘳𝘦𝘤𝘰𝘳𝘥𝘴 𝘤𝘶𝘴𝘵𝘰𝘮𝘦𝘳 𝘥𝘢𝘵𝘢 𝘵𝘩𝘳𝘰𝘶𝘨𝘩 𝘵𝘩𝘦 𝘶𝘴𝘦 𝘰𝘧 𝘴𝘱𝘳𝘦𝘢𝘥𝘴𝘩𝘦𝘦𝘵𝘴. 𝘛𝘩𝘦𝘳𝘦 𝘪𝘴 𝘯𝘰 𝘴𝘺𝘴𝘵𝘦𝘮 𝘵𝘩𝘢𝘵 𝘢𝘭𝘭𝘰𝘸𝘴 𝘧𝘭𝘪𝘨𝘩𝘵𝘴 𝘵𝘰 𝘣𝘦 𝘣𝘰𝘰𝘬𝘦𝘥 𝘦𝘭𝘦𝘤𝘵𝘳𝘰𝘯𝘪𝘤𝘢𝘭𝘭𝘺 𝘧𝘰𝘳 𝘵𝘩𝘦 𝘶𝘴𝘦 𝘰𝘧 𝘵𝘩𝘦 𝘍𝘭𝘪𝘨𝘩𝘵 𝘙𝘦𝘱𝘳𝘦𝘴𝘦𝘯𝘵𝘢𝘵𝘪𝘷𝘦𝘴 𝘵𝘰 𝘳𝘦𝘤𝘰𝘳𝘥 𝘢𝘯𝘥 𝘳𝘦𝘵𝘢𝘪𝘯 𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯.
 
-The project requirements involve an Object-Oriented GUI program that is going to be used as the airline’s booking system. The methods that the airline would like featured in this application will allow a user to select criteria for an intended flight, which include:
-1.	Departure Airport
-2.	Destination Airport
-3.	Type of Seats (Economy, Business, First)
+𝘛𝘩𝘦 𝘱𝘳𝘰𝘫𝘦𝘤𝘵 𝘳𝘦𝘲𝘶𝘪𝘳𝘦𝘮𝘦𝘯𝘵𝘴 𝘪𝘯𝘷𝘰𝘭𝘷𝘦 𝘢𝘯 𝘖𝘣𝘫𝘦𝘤𝘵-𝘖𝘳𝘪𝘦𝘯𝘵𝘦𝘥 𝘎𝘜𝘐 𝘱𝘳𝘰𝘨𝘳𝘢𝘮 𝘵𝘩𝘢𝘵 𝘪𝘴 𝘨𝘰𝘪𝘯𝘨 𝘵𝘰 𝘣𝘦 𝘶𝘴𝘦𝘥 𝘢𝘴 𝘵𝘩𝘦 𝘢𝘪𝘳𝘭𝘪𝘯𝘦’𝘴 𝘣𝘰𝘰𝘬𝘪𝘯𝘨 𝘴𝘺𝘴𝘵𝘦𝘮. 𝘛𝘩𝘦 𝘮𝘦𝘵𝘩𝘰𝘥𝘴 𝘵𝘩𝘢𝘵 𝘵𝘩𝘦 𝘢𝘪𝘳𝘭𝘪𝘯𝘦 𝘸𝘰𝘶𝘭𝘥 𝘭𝘪𝘬𝘦 𝘧𝘦𝘢𝘵𝘶𝘳𝘦𝘥 𝘪𝘯 𝘵𝘩𝘪𝘴 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 𝘸𝘪𝘭𝘭 𝘢𝘭𝘭𝘰𝘸 𝘢 𝘶𝘴𝘦𝘳 𝘵𝘰 𝘴𝘦𝘭𝘦𝘤𝘵 𝘤𝘳𝘪𝘵𝘦𝘳𝘪𝘢 𝘧𝘰𝘳 𝘢𝘯 𝘪𝘯𝘵𝘦𝘯𝘥𝘦𝘥 𝘧𝘭𝘪𝘨𝘩𝘵, 𝘸𝘩𝘪𝘤𝘩 𝘪𝘯𝘤𝘭𝘶𝘥𝘦:
+
+✦ 𝘋𝘦𝘱𝘢𝘳𝘵𝘶𝘳𝘦 𝘈𝘪𝘳𝘱𝘰𝘳𝘵
+✦ 𝘋𝘦𝘴𝘵𝘪𝘯𝘢𝘵𝘪𝘰𝘯 𝘈𝘪𝘳𝘱𝘰𝘳𝘵
+✦ 𝘛𝘺𝘱𝘦 𝘰𝘧 𝘚𝘦𝘢𝘵𝘴 (𝘌𝘤𝘰𝘯𝘰𝘮𝘺, 𝘉𝘶𝘴𝘪𝘯𝘦𝘴𝘴, 𝘍𝘪𝘳𝘴𝘵)
 
 
 
@@ -49,10 +55,5 @@ FUNCTIONALITY
 10.	The Maintenance Suite will allow access to only the Administrator where they will be able to view/add/delete airports and to view bookings.
 
 
-Programming Language	C#
-Framework	.NET Framework
-Software Tools	1.	Visual Studio Community – used for the creation of the Booking System program and the Graphical User Interface
-2.	DB Browser – used to populate and view database tables. Management of the database used in the system
-Database	SQLite – Entry Level Free database software
-Packages Used	NuGet– SQLite Packages and Entity Framework installed on Visual Studio required to connect Database to the System
+
 
