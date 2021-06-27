@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.3.0\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.3.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{595A9C9A-B309-40B2-830E-6A01439A31C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Cyanair_Airline_Booking_System</RootNamespace>
+    <AssemblyName>Cyanair Airline Booking System</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.3.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.3.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.core, Version=2.0.3.851, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL">
+      <HintPath>packages\SQLitePCLRaw.core.2.0.3\lib\netstandard2.0\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Core.1.0.113.1\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.113.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.113.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.4.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aircraft.cs" />
+    <Compile Include="CyanairDataConnection.cs" />
+    <Compile Include="FlightRoute.cs" />
+    <Compile Include="frmBookingConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBookingConfirmation.Designer.cs">
+      <DependentUpon>frmBookingConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bookings.cs" />
+    <Compile Include="frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBookingSystem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBookingSystem.Designer.cs">
+      <DependentUpon>frmBookingSystem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChoice.Designer.cs">
+      <DependentUpon>frmChoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMaintenanceSuite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMaintenanceSuite.Designer.cs">
+      <DependentUpon>frmMaintenanceSuite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPassengerDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPassengerDetails.Designer.cs">
+      <DependentUpon>frmPassengerDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PassengerDetails.cs" />
+    <Compile Include="Person.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SystemUsers.cs" />
+    <EmbeddedResource Include="frmBookingConfirmation.resx">
+      <DependentUpon>frmBookingConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.resx">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBookingSystem.resx">
+      <DependentUpon>frmBookingSystem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChoice.resx">
+      <DependentUpon>frmChoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMaintenanceSuite.resx">
+      <DependentUpon>frmMaintenanceSuite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPassengerDetails.resx">
+      <DependentUpon>frmPassengerDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Help System\bootstrap\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Help System\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Help System\bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Help System\bootstrap\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Help System\font-awesome\fonts\fontawesome-webfont.eot" />
+    <None Include="Help System\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <None Include="Help System\font-awesome\fonts\fontawesome-webfont.woff" />
+    <None Include="Help System\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <None Include="Help System\font-awesome\fonts\FontAwesome.otf" />
+    <None Include="Help System\font-awesome\less\bordered-pulled.less" />
+    <None Include="Help System\font-awesome\less\core.less" />
+    <None Include="Help System\font-awesome\less\fixed-width.less" />
+    <None Include="Help System\font-awesome\less\font-awesome.less" />
+    <None Include="Help System\font-awesome\less\icons.less" />
+    <None Include="Help System\font-awesome\less\larger.less" />
+    <None Include="Help System\font-awesome\less\list.less" />
+    <None Include="Help System\font-awesome\less\mixins.less" />
+    <None Include="Help System\font-awesome\less\path.less" />
+    <None Include="Help System\font-awesome\less\rotated-flipped.less" />
+    <None Include="Help System\font-awesome\less\spinning.less" />
+    <None Include="Help System\font-awesome\less\stacked.less" />
+    <None Include="Help System\font-awesome\less\variables.less" />
+    <None Include="Help System\font-awesome\scss\font-awesome.scss" />
+    <None Include="Help System\font-awesome\scss\_bordered-pulled.scss" />
+    <None Include="Help System\font-awesome\scss\_core.scss" />
+    <None Include="Help System\font-awesome\scss\_fixed-width.scss" />
+    <None Include="Help System\font-awesome\scss\_icons.scss" />
+    <None Include="Help System\font-awesome\scss\_larger.scss" />
+    <None Include="Help System\font-awesome\scss\_list.scss" />
+    <None Include="Help System\font-awesome\scss\_mixins.scss" />
+    <None Include="Help System\font-awesome\scss\_path.scss" />
+    <None Include="Help System\font-awesome\scss\_rotated-flipped.scss" />
+    <None Include="Help System\font-awesome\scss\_spinning.scss" />
+    <None Include="Help System\font-awesome\scss\_stacked.scss" />
+    <None Include="Help System\font-awesome\scss\_variables.scss" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Help System\bootstrap\css\bootstrap.css" />
+    <Content Include="Help System\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Help System\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Help System\bootstrap\js\bootstrap.js" />
+    <Content Include="Help System\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Help System\font-awesome\css\font-awesome.css" />
+    <Content Include="Help System\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Help System\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Help System\img\choice.PNG" />
+    <Content Include="Help System\img\confirmation.png" />
+    <Content Include="Help System\img\logo.png" />
+    <Content Include="Help System\img\passengerdetails.PNG" />
+    <Content Include="Help System\img\passengerflights.PNG" />
+    <Content Include="Help System\img\search.png" />
+    <Content Include="Help System\index.html" />
+    <Content Include="Help System\js\jquery-1.10.2.min.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\System.Data.SQLite.Core.1.0.113.1\build\net46\System.Data.SQLite.Core.targets'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.3.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.3.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.3.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.3.0\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.3.0\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.3.0\build\EntityFramework.targets')" />
+</Project>
