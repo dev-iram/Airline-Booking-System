@@ -1,7 +1,7 @@
 # Cyanair-Airline-Booking-System
  This is a project I created as per specifications in C&amp;G OOP module during the course of my FIT ICTAP Software Development apprenticeship. 
- *-> Created in C#
- *-> Visual Studio
+ -> Created in C#  
+ -> Visual Studio  
  
  
  
