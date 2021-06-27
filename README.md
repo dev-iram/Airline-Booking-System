@@ -45,3 +45,12 @@ FUNCTIONALITY
 8.	After the flight has been confirmed, a booking reference number will be generated. 
 9.	The user will then have the option to create a new booking.
 10.	The Maintenance Suite will allow access to only the Administrator where they will be able to view/add/delete airports and to view bookings.
+
+
+Programming Language	C#
+Framework	.NET Framework
+Software Tools	1.	Visual Studio Community – used for the creation of the Booking System program and the Graphical User Interface
+2.	DB Browser – used to populate and view database tables. Management of the database used in the system
+Database	SQLite – Entry Level Free database software
+Packages Used	NuGet– SQLite Packages and Entity Framework installed on Visual Studio required to connect Database to the System
+
