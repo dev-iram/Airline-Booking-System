@@ -20,3 +20,28 @@ Please create /data/Cyanair.db in Local Disk if it does not open the database (C
 -> To test for flights;
 
 Dublin to Cork - 19/06/2020 Cork to Dublin - 19/06/2020
+
+
+
+1.5	Deliverables 
+This section will provide the assets being produced by the project and the key features.
+COMPLETED SOFTWARE USING C# 
+1.	Cyanair.db Database File
+2.	Help page using HTML integrated within the system 
+DOCUMENTATION
+3.	Object Oriented Programming Report Documentation
+4.	System Design Document Report Documentation
+5.	Project Scope Statement Documentation
+6.	Test Log Report Documentation
+7.	Technical Report Documentation
+FUNCTIONALITY
+1.	The Cyanair Booking System will be protected via a Login (There will be 2 roles – Flight Representative and an Administrator)
+2.	The system will allow the user to then choose between either the Booking System or the Maintenance Suite. The choice will only be available to the Administrator. The Flight Representative will only have the Booking System as an option.
+3.	The Booking System will allow the Flight Representative to make bookings on behalf of passengers via the booking process.
+4.	The system will allow for Departure and Destination flights to be selected, along with the date for the flight.
+5.	The system will allow One Way, Return, or Onward Leg flights
+6.	The system will proceed to gather the passenger details
+7.	After all of the passenger’s information has been gathered, the system will ask for a booking confirmation, with all of the information regarding the flight booking being produced on the screen
+8.	After the flight has been confirmed, a booking reference number will be generated. 
+9.	The user will then have the option to create a new booking.
+10.	The Maintenance Suite will allow access to only the Administrator where they will be able to view/add/delete airports and to view bookings.
