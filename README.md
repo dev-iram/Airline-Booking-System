@@ -1,5 +1,6 @@
 # Cyanair Airline Booking System
-![ATM Kiosk System (1)](https://user-images.githubusercontent.com/22479692/123785234-3641a100-d8d0-11eb-9d09-b064a192311c.png)
+![Airline Booking System](https://user-images.githubusercontent.com/22479692/124033145-7cdaec80-d9f1-11eb-98b5-3fb02b3757ba.png)
+
 
  This is a project I created as per specifications in C&amp;G OOP module during the course of my FIT ICTAP Software Development apprenticeship.    
    
