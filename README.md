@@ -52,8 +52,3 @@ Please create /data/Cyanair.db in Local Disk if it does not open the database (C
 
 
 
-
-
-
-
-
